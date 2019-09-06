@@ -1,4 +1,5 @@
-public class BinaryIterativeSearch implements Practice03Search{
+public class BinaryIterativeSearch implements Practice03Search
+{
 
     public int search(int[] array, int target){
         int low = 0;
@@ -17,7 +18,7 @@ public class BinaryIterativeSearch implements Practice03Search{
     }
 
     public String searchName(){
-        return "Binary iterative search";
+        return "Binary Iterative Search";
     }
 
 

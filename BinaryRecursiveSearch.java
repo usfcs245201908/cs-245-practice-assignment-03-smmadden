@@ -1,4 +1,5 @@
-public class BinaryRecursiveSearch implements Practice03Search{
+public class BinaryRecursiveSearch implements Practice03Search
+{
 
     public int search(int[] array, int target){
         return search(array, target, 0, array.length - 1);
@@ -17,7 +18,7 @@ public class BinaryRecursiveSearch implements Practice03Search{
     }
 
     public String searchName(){
-        return "Binary recursive search";
+        return "Binary Recursive Search";
     }
 
 }
