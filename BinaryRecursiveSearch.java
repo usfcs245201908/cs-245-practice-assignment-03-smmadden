@@ -17,7 +17,7 @@ public class BinaryRecursiveSearch implements Practice03Search{
     }
 
     public String searchName(){
-        return "Binary iterative search";
+        return "Binary recursive search";
     }
 
 }
